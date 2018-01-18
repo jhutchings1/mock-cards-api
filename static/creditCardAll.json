@@ -1,0 +1,185 @@
+{
+  "82457245": {
+    "id": "82457245",
+    "merchant": "visa",
+    "name": "Capital One Venture",
+    "intro_apr": {
+      "months": 12,
+      "rate": 0,
+      "does_not_apply": false
+    },
+    "regular_apr": {
+      "months": 0,
+      "rate": 0.1599,
+      "variable": true
+    },
+    "recommended_credit_scores": [
+      {
+        "name": "poor",
+        "min": 390,
+        "max": 560
+      },
+      {
+        "name": "medium",
+        "min": 550,
+        "max": 675
+      }
+    ],
+    "rates_and_fees": [
+      {
+        "name": "annual",
+        "fee": 0,
+        "caveat": ""
+      },
+      {
+        "name": "intro balance transfer apr",
+        "rate": 0.1099,
+        "duration_months": 14
+      }
+    ],
+    "features": [
+      "emv",
+      "no foriegn transactions fees",
+      "no annual fee",
+      "0% introductory apr",
+      "free credit score"
+    ]
+  },
+  "10238723":{
+    "id": "10238723",
+    "merchant": "Chase",
+    "name": "Chase Freedom Unlimited",
+    "intro_apr": {
+      "months": 15,
+      "rate": 0,
+      "does_not_apply": false
+    },
+    "regular_apr": {
+      "months": 0,
+      "rate": 0.2099,
+      "variable": true
+    },
+    "recommended_credit_scores": [
+      {
+        "name": "good",
+        "min": 670,
+        "max": 750
+      },
+      {
+        "name": "excellent",
+        "min": 750,
+        "max": 850
+      }
+    ],
+    "rates_and_fees": [
+      {
+        "name": "annual",
+        "fee": 0,
+        "caveat": ""
+      },
+      {
+        "name": "intro balance transfer apr",
+        "rate": 0.0,
+        "duration_months": 15
+      }
+    ],
+    "features": [
+      "Unlimited 1.5% cash back on every purchase -- its automatic",
+      "Earn a $150 Bonus after you spend $500 on purchases in your first 3 months from account opening",
+      "No annual fee",
+      "No minimum to redeem for cash back"
+    ]
+  },
+  "73829661": {
+    "id": "73829661",
+    "merchant": "American Express",
+    "name": "American Express Blue Cash Everyday",
+    "intro_apr": {
+      "months": 15,
+      "rate": 0,
+      "does_not_apply": false
+    },
+    "regular_apr": {
+      "months": 0,
+      "rate": 0.2199,
+      "variable": true
+    },
+    "recommended_credit_scores": [
+      {
+        "name": "medium",
+        "min": 550,
+        "max": 675
+      },
+      {
+        "name": "good",
+        "min": 670,
+        "max": 750
+      }
+    ],
+    "rates_and_fees": [
+      {
+        "name": "annual",
+        "fee": 0,
+        "caveat": ""
+      },
+      {
+        "name": "intro balance transfer apr",
+        "rate": 0.0,
+        "duration_months": 15
+      }
+    ],
+    "features": [
+      "$150 statement credit after you spend $1,000 in purchases on your new Card within the first 3 months.",
+      "3% cash back at U.S. supermarkets (on up to $6,000 per year in purchases, then 1%)",
+      "No annual fee",
+      "2% cash back at U.S. gas stations and at select U.S. department stores, 1% back on other purchases.",
+      "Cash back is received in the form of Reward Dollars that can be easily redeemed for statement credits, gift cards, and merchandise."
+    ]
+  },
+  "99123187": {
+    "id": "99123187",
+    "merchant": "Chase",
+    "name": "Chase Sapphire Preferred Card",
+    "intro_apr": {
+      "months": 12,
+      "rate": 0,
+      "does_not_apply": true
+    },
+    "regular_apr": {
+      "months": 0,
+      "rate": 0.2199,
+      "variable": true
+    },
+    "recommended_credit_scores": [
+      {
+        "name": "good",
+        "min": 670,
+        "max": 750
+      },
+      {
+        "name": "excellent",
+        "min": 750,
+        "max": 850
+      }
+    ],
+    "rates_and_fees": [
+      {
+        "name": "annual",
+        "fee": 95,
+        "caveat": "Free for first year"
+      },
+      {
+        "name": "intro balance transfer apr",
+        "rate": 0.0,
+        "duration_months": 15
+      }
+    ],
+    "features": [
+      "Earn 50,000 bonus points after you spend $4,000 on purchases in the first 3 months from account opening. That's $625 toward travel when you redeem through Chase Ultimate Rewards",
+      "2X points on travel and dining at restaurants worldwide & 1 point per dollar spent on all other purchases",
+      "Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening",
+      "No foreign transaction fees",
+      "1:1 point transfer to leading airline and hotel loyalty programs"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.main {
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+li {
+  margin-left: 35px;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+h4 > span {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  vertical-align: middle;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.get > span {
+  background-color: #0f6ab4;
+}
+
+.post > span {
+  background-color: #10a54a;
+}
