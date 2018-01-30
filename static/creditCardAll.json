@@ -3,6 +3,7 @@
     "id": "82457245",
     "merchant": "visa",
     "name": "Capital One Venture",
+    "image": "https://techcase-cards-api.herokuapp.com/images/capitalOneVenture.jpeg",
     "intro_apr": {
       "months": 12,
       "rate": 0,
@@ -49,6 +50,7 @@
     "id": "10238723",
     "merchant": "Chase",
     "name": "Chase Freedom Unlimited",
+    "image": "https://techcase-cards-api.herokuapp.com/images/chaseFreedomUnlimited.jpeg",
     "intro_apr": {
       "months": 15,
       "rate": 0,
@@ -94,6 +96,7 @@
     "id": "73829661",
     "merchant": "American Express",
     "name": "American Express Blue Cash Everyday",
+    "image": "https://techcase-cards-api.herokuapp.com/images/americanExpressBlueCash.jpg",
     "intro_apr": {
       "months": 15,
       "rate": 0,
@@ -140,6 +143,7 @@
     "id": "99123187",
     "merchant": "Chase",
     "name": "Chase Sapphire Preferred Card",
+    "image": "https://techcase-cards-api.herokuapp.com/images/chaseSapphirePreferred.jpg",
     "intro_apr": {
       "months": 12,
       "rate": 0,
@@ -180,6 +184,95 @@
       "Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening",
       "No foreign transaction fees",
       "1:1 point transfer to leading airline and hotel loyalty programs"
+    ]
+  },
+  "99111187": {
+    "id": "99111187",
+    "merchant": "Citi",
+    "name": "Citi Double Cash",
+    "image": "https://techcase-cards-api.herokuapp.com/images/citiDoubleCash.png",
+    "intro_apr": {
+      "months": 18,
+      "rate": 0,
+      "does_not_apply": false
+    },
+    "regular_apr": {
+      "months": 0,
+      "rate": 0.2499,
+      "variable": true
+    },
+    "recommended_credit_scores": [
+      {
+        "name": "good",
+        "min": 670,
+        "max": 750
+      },
+      {
+        "name": "excellent",
+        "min": 750,
+        "max": 850
+      }
+    ],
+    "rates_and_fees": [
+      {
+        "name": "annual",
+        "fee": 0,
+        "caveat": ""
+      }
+    ],
+    "features": [
+      "Earn cash back twice on every purchase with unlimited 1% cash back when you buy, plus an additional 1% as you pay for those purchases.",
+      "Balance Transfers do not earn cash back",
+      "0% Intro APR on Balance Transfers for 18 months. After that, the variable APR will be 14.74% - 24.74% based on your creditworthiness*",
+      "No categories to track, no caps on cash back, no annual fee*"
+    ]
+  },
+  "99124487": {
+    "id": "99124487",
+    "merchant": "Discover",
+    "name": "Discover it Cashback Match",
+    "image": "https://techcase-cards-api.herokuapp.com/images/discoverItCashbackMatch.png",
+    "intro_apr": {
+      "months": 14,
+      "rate": 0,
+      "does_not_apply": false
+    },
+    "regular_apr": {
+      "months": 0,
+      "rate": 0.2424,
+      "variable": true
+    },
+    "recommended_credit_scores": [
+      {
+        "name": "good",
+        "min": 670,
+        "max": 750
+      },
+      {
+        "name": "excellent",
+        "min": 750,
+        "max": 850
+      }
+    ],
+    "rates_and_fees": [
+      {
+        "name": "annual",
+        "fee": 0,
+        "caveat": ""
+      },
+      {
+        "name": "intro balance transfer apr",
+        "rate": 0.0,
+        "duration_months": 14
+      }
+    ],
+    "features": [
+      "Earn 5% cash back at different places each quarter like gas stations, grocery stores, restaurants, Amazon.com, or wholesale clubs up to the quarterly maximum each time you activate",
+      "Earn 1% cash back on all other purchases.",
+      "Intro Offer: Discover will match all the cash back earned at the end of your first year, automatically.",
+      "Redeem your cash back for any amount, any time. Cash rewards never expire.",
+      "Use your rewards instantly at Amazon.com checkout.",
+      "No annual fee."
     ]
   }
 }
