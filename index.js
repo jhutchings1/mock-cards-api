@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const routes = require('./routes')
+const path = require('path')
 const Ddos = require('ddos')
 const bodyParser = require('body-parser')
 
@@ -9,6 +10,8 @@ const ddos = new Ddos({ burst: 10, limit: 15 })
 
 // body parse incoming reqs as json for convenience
 app.use(bodyParser.json())
+
+app.get('/docs', (req, res) => res.sendFile(path.join(__dirname, '/docs/index.html')))
 
 // prevent ddos
 app.use(ddos.express)
