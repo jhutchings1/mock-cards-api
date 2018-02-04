@@ -46,7 +46,7 @@
       "free credit score"
     ]
   },
-  "10238723":{
+  "10238723": {
     "id": "10238723",
     "merchant": "Chase",
     "name": "Chase Freedom Unlimited",
@@ -273,6 +273,95 @@
       "Redeem your cash back for any amount, any time. Cash rewards never expire.",
       "Use your rewards instantly at Amazon.com checkout.",
       "No annual fee."
+    ]
+  },
+  "58810715": {
+    "id": "58810715",
+    "merchant": "Bank of America",
+    "name": "Bank of America Travel Rewards Credit Card",
+    "image": "https://techcase-cards-api.herokuapp.com/images/bankOfAmericaTravelRewards.jpg",
+    "intro_apr": {
+      "months": 12,
+      "rate": 0,
+      "does_not_apply": false
+    },
+    "regular_apr": {
+      "months": 0,
+      "rate": 0.2199,
+      "variable": true
+    },
+    "recommended_credit_scores": [
+      {
+        "name": "good",
+        "min": 670,
+        "max": 750
+      },
+      {
+        "name": "excellent",
+        "min": 750,
+        "max": 850
+      }
+    ],
+    "rates_and_fees": [
+      {
+        "name": "annual",
+        "fee": 0,
+        "caveat": ""
+      }
+    ],
+    "features": [
+      "Earn unlimited 1.5 points per $1 spent on all purchases, with no annual fee and no foreign transaction fees and your points don't expire",
+      "20,000 online bonus points if you make at least $1,000 in purchases in the first 90 days of account opening - that can be a $200 statement credit toward travel purchases",
+      "Use your card to book your trip how and where you want - you're not limited to specific websites with blackout dates or restrictions",
+      "Redeem points for a statement credit to pay for flights, hotels, vacation packages, cruises, rental cars, or baggage fees",
+      "Comes with chip technology for enhanced security and protection at chip-enabled terminals",
+      "0% Introductory APR for 12 billing cycles for purchases, then 16.24% - 24.24% Variable APR",
+      "Get an additional 10% customer points bonus on every purchase when you have an active Bank of America® checking or savings account",
+      "If you're a Preferred Rewards client, you can increase that bonus to 25% - 75%"
+    ]
+  },
+  "40739499": {
+    "id": "40739499",
+    "merchant": "American Express",
+    "name": "American Express Platinum Card",
+    "image": "https://techcase-cards-api.herokuapp.com/images/americanExpressPlatinum.jpg",
+    "intro_apr": {
+      "months": 12,
+      "rate": 0,
+      "does_not_apply": true
+    },
+    "regular_apr": {
+      "months": 0,
+      "rate": ".1824",
+      "variable": true
+    },
+    "recommended_credit_scores": [
+      {
+        "name": "good",
+        "min": 670,
+        "max": 750
+      },
+      {
+        "name": "excellent",
+        "min": 750,
+        "max": 850
+      }
+    ],
+    "rates_and_fees": [
+      {
+        "name": "annual",
+        "fee": 95,
+        "caveat": ""
+      }
+    ],
+    "features": [
+      "Earn 60,000 Membership Rewards® points after you use your new Card to make $5,000 in purchases in your first 3 months",
+      "Up to $200 for Uber rides annually. Credit and Uber VIP status available to Basic Card Member only",
+      "5X Membership Rewards® points on flights booked directly with airlines or with American Express Travel",
+      "5X Membership Rewards® points on eligible hotels booked on amextravel.com",
+      "As a Platinum Card Member, you can enjoy access to the Global Lounge Collection, the only credit card airport lounge access program that includes proprietary lounge locations around the world",
+      "Receive complimentary benefits with an average total value of $550 with Fine Hotels & Resorts",
+      "$200 Airline Fee Credit, up to $200 per calendar year in baggage fees and more at one qualifying airline"
     ]
   }
 }
