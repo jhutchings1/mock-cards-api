@@ -1,7 +1,7 @@
 {
   "82457245": {
     "id": "82457245",
-    "merchant": "visa",
+    "merchant": "Visa",
     "name": "Capital One Venture",
     "image": "https://techcase-cards-api.herokuapp.com/images/capitalOneVenture.jpeg",
     "intro_apr": {
@@ -39,11 +39,10 @@
       }
     ],
     "features": [
-      "emv",
-      "no foriegn transactions fees",
-      "no annual fee",
+      "No foriegn transactions fees",
+      "No annual fee",
       "0% introductory apr",
-      "free credit score"
+      "Free credit score"
     ]
   },
   "10238723": {
