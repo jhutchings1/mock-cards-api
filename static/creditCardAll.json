@@ -1,9 +1,12 @@
-{
-  "82457245": {
+[
+  {
     "id": "82457245",
     "merchant": "Visa",
     "name": "Capital One Venture",
     "image": "https://techcase-cards-api.herokuapp.com/images/capitalOneVenture.jpeg",
+    "tags": [
+      "Travel"
+    ],
     "intro_apr": {
       "months": 12,
       "rate": 0,
@@ -45,10 +48,13 @@
       "Free credit score"
     ]
   },
-  "10238723": {
+  {
     "id": "10238723",
     "merchant": "Chase",
     "name": "Chase Freedom Unlimited",
+    "tags": [
+      "Cash Back"
+    ],
     "image": "https://techcase-cards-api.herokuapp.com/images/chaseFreedomUnlimited.jpeg",
     "intro_apr": {
       "months": 15,
@@ -91,10 +97,13 @@
       "No minimum to redeem for cash back"
     ]
   },
-  "73829661": {
+  {
     "id": "73829661",
     "merchant": "American Express",
     "name": "American Express Blue Cash Everyday",
+    "tags": [
+      "Cash Back"
+    ],
     "image": "https://techcase-cards-api.herokuapp.com/images/americanExpressBlueCash.jpg",
     "intro_apr": {
       "months": 15,
@@ -138,10 +147,13 @@
       "Cash back is received in the form of Reward Dollars that can be easily redeemed for statement credits, gift cards, and merchandise."
     ]
   },
-  "99123187": {
+  {
     "id": "99123187",
     "merchant": "Chase",
     "name": "Chase Sapphire Preferred Card",
+    "tags": [
+      "travel"
+    ],
     "image": "https://techcase-cards-api.herokuapp.com/images/chaseSapphirePreferred.jpg",
     "intro_apr": {
       "months": 12,
@@ -185,10 +197,13 @@
       "1:1 point transfer to leading airline and hotel loyalty programs"
     ]
   },
-  "99111187": {
+  {
     "id": "99111187",
     "merchant": "Citi",
     "name": "Citi Double Cash",
+    "tags": [
+      "Cash Back"
+    ],
     "image": "https://techcase-cards-api.herokuapp.com/images/citiDoubleCash.png",
     "intro_apr": {
       "months": 18,
@@ -226,10 +241,13 @@
       "No categories to track, no caps on cash back, no annual fee*"
     ]
   },
-  "99124487": {
+  {
     "id": "99124487",
     "merchant": "Discover",
     "name": "Discover it Cashback Match",
+    "tags": [
+      "Cash Back"
+    ],
     "image": "https://techcase-cards-api.herokuapp.com/images/discoverItCashbackMatch.png",
     "intro_apr": {
       "months": 14,
@@ -274,10 +292,13 @@
       "No annual fee."
     ]
   },
-  "58810715": {
+  {
     "id": "58810715",
     "merchant": "Bank of America",
     "name": "Bank of America Travel Rewards Credit Card",
+    "tags": [
+      "Travel"
+    ],
     "image": "https://techcase-cards-api.herokuapp.com/images/bankOfAmericaTravelRewards.jpg",
     "intro_apr": {
       "months": 12,
@@ -319,10 +340,14 @@
       "If you're a Preferred Rewards client, you can increase that bonus to 25% - 75%"
     ]
   },
-  "40739499": {
+  {
     "id": "40739499",
     "merchant": "American Express",
     "name": "American Express Platinum Card",
+    "tags": [
+      "Premium",
+      "Uber"
+    ],
     "image": "https://techcase-cards-api.herokuapp.com/images/americanExpressPlatinum.jpg",
     "intro_apr": {
       "months": 12,
@@ -363,4 +388,4 @@
       "$200 Airline Fee Credit, up to $200 per calendar year in baggage fees and more at one qualifying airline"
     ]
   }
-}
+]

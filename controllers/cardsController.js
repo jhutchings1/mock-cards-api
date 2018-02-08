@@ -5,6 +5,17 @@ module.exports = {
     // return the static json file with all credit card info
     res.status(200).json(staticJson.allCardInfo)
   },
+  getCard: (req, res) => {
+    // parameter validation
+    if (!req.params.id) {
+      return res.status(400).json({ success: false, message: 'Invalid parameters' })
+    }
+    // return static json for single card with id
+    const returnCard = staticJson.allCardInfo.filter(card => card.id === req.params.id)
+    if (returnCard && returnCard.length) {
+      return res.status(200).json({ success: true, card: returnCard[0] })
+    } else return res.status(200).json({ success: false, message: 'No card by that ID' })
+  },
   apply: (req, res) => {
     // parameter validation
     if (!req.body.creditScore || !req.params.id) {
