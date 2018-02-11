@@ -5,7 +5,9 @@
     "name": "Capital One Venture",
     "image": "https://techcase-cards-api.herokuapp.com/images/capitalOneVenture.jpeg",
     "tags": [
-      "Travel"
+      "travel",
+      "no_annual_fee",
+      "zero_intro_apr"
     ],
     "intro_apr": {
       "months": 12,
@@ -53,7 +55,8 @@
     "merchant": "Chase",
     "name": "Chase Freedom Unlimited",
     "tags": [
-      "Cash Back"
+      "cashback",
+      "no_annual_fee"
     ],
     "image": "https://techcase-cards-api.herokuapp.com/images/chaseFreedomUnlimited.jpeg",
     "intro_apr": {
@@ -86,7 +89,7 @@
       },
       {
         "name": "intro balance transfer apr",
-        "rate": 0.0,
+        "rate": 0,
         "duration_months": 15
       }
     ],
@@ -102,7 +105,8 @@
     "merchant": "American Express",
     "name": "American Express Blue Cash Everyday",
     "tags": [
-      "Cash Back"
+      "cashback",
+      "no_annual_fee"
     ],
     "image": "https://techcase-cards-api.herokuapp.com/images/americanExpressBlueCash.jpg",
     "intro_apr": {
@@ -135,7 +139,7 @@
       },
       {
         "name": "intro balance transfer apr",
-        "rate": 0.0,
+        "rate": 0,
         "duration_months": 15
       }
     ],
@@ -185,7 +189,7 @@
       },
       {
         "name": "intro balance transfer apr",
-        "rate": 0.0,
+        "rate": 0,
         "duration_months": 15
       }
     ],
@@ -202,7 +206,9 @@
     "merchant": "Citi",
     "name": "Citi Double Cash",
     "tags": [
-      "Cash Back"
+      "cashback",
+      "zero_intro_apr",
+      "no_annual_fee"
     ],
     "image": "https://techcase-cards-api.herokuapp.com/images/citiDoubleCash.png",
     "intro_apr": {
@@ -246,7 +252,8 @@
     "merchant": "Discover",
     "name": "Discover it Cashback Match",
     "tags": [
-      "Cash Back"
+      "cashback",
+      "no_annual_fee"
     ],
     "image": "https://techcase-cards-api.herokuapp.com/images/discoverItCashbackMatch.png",
     "intro_apr": {
@@ -279,7 +286,7 @@
       },
       {
         "name": "intro balance transfer apr",
-        "rate": 0.0,
+        "rate": 0,
         "duration_months": 14
       }
     ],
@@ -297,7 +304,8 @@
     "merchant": "Bank of America",
     "name": "Bank of America Travel Rewards Credit Card",
     "tags": [
-      "Travel"
+      "travel",
+      "zero_intro_apr"
     ],
     "image": "https://techcase-cards-api.herokuapp.com/images/bankOfAmericaTravelRewards.jpg",
     "intro_apr": {
@@ -345,8 +353,7 @@
     "merchant": "American Express",
     "name": "American Express Platinum Card",
     "tags": [
-      "Premium",
-      "Uber"
+      "travel"
     ],
     "image": "https://techcase-cards-api.herokuapp.com/images/americanExpressPlatinum.jpg",
     "intro_apr": {
